@@ -29,8 +29,7 @@ class PlayList:
         return len(self.song)
 
     def __iter__(self):
-        for song in self.song:
-            yield song
+        yield from self.song
 
     def __str__(self):
         result = ""

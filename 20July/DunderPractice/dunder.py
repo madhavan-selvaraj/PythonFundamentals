@@ -105,16 +105,16 @@ n[1] = 100
 print(n.data)
 
 
-class team:
-    def __init__(self):
-        self.players = ["John", "Mike"]
+# class team:
+#     def __init__(self):
+#         self.players = ["John", "Mike"]
 
-    def __contains__(self, player):
-        return player in self.players
+#     def __contains__(self, player):
+#         return player in self.players
 
 
-t = team()
-print("john" in t)
+# t = team()
+# print("john" in t)
 
 
 class counter:

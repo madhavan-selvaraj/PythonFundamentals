@@ -1,6 +1,5 @@
 def count(n):  # Create a generator that yields numbers from 1 to n.
-    for i in range(1, n + 1):
-        yield (i)
+    yield from range(1, n + 1)
 
 
 def count_down(n):  # Yield numbers from n down to 1.
@@ -10,13 +9,11 @@ def count_down(n):  # Yield numbers from n down to 1.
 
 
 def even_num(num):  # Yield all even numbers from 1 to n.
-    for i in range(2, num + 1, 2):
-        yield (i)
+    yield from range(2, num + 1, 2)
 
 
-def odd_num(n):  # Yield all odd numbers from 1 to n.
-    for i in range(1, n, 2):
-        yield (i)
+def odd_num(n):
+    yield from range(1, n, 2)
 
 
 def square_num(n):  # Yield the square of numbers from 1 to n.

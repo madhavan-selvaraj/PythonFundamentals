@@ -35,8 +35,7 @@ class TransactionHistory:
         return self
 
     def transaction_history(self):
-        for transaction in self.transactions:
-            yield transaction
+        yield from self.transactions
 
 
 history = TransactionHistory()

@@ -1,6 +1,7 @@
-# Virtual environment
+# Virtual environments
 venv/
-
+.venv/
+.ruff_cache/
 # Python cache
 __pycache__/
 *.pyc
@@ -14,3 +15,6 @@ __pycache__/
 
 # macOS
 .DS_Store
+
+# Log files
+*.log.python-version

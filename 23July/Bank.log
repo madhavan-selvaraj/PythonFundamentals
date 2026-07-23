@@ -1,0 +1,8 @@
+INFO:GROOT:Account created | Holder=Madhavan | Balance=5000
+INFO:GROOT:Account created | Holder=Rahul | Balance=10000
+INFO:GROOT:Madhavan deposited Rs.1000. Balance = Rs.6000
+INFO:GROOT:Money Withdraw-> Rs.2000 is withdrawn
+INFO:GROOT:Bank name changed from XYZ Bank to XYZ Bank
+WARNING:GROOT:Deposit below minimum amount
+WARNING:GROOT:Invalid withdrawal
+WARNING:GROOT:Balance cannot become negative

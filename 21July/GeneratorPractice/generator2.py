@@ -1,11 +1,9 @@
-def one_char(str):
-    for i in str:
-        yield i
+def one_char(text):
+    yield from text
 
 
-def one_word(str):
-    for i in str.split():
-        yield i
+def one_word(text):
+    yield from text.split()
 
 
 def reverse_char(str):

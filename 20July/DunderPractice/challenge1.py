@@ -5,7 +5,10 @@ class Bank:
         self.balance = balance
 
     def __str__(self):
-        return f"ACCOUNT HOLDER:{self.name},ACCOUNT NUMBER:{self.acc_no},BALANCE:$.{self.balance}"
+        return (
+            f"ACCOUNT HOLDER:{self.name}\n"
+            f"ACCOUNT NUMBER:{self.acc_no},BALANCE:$.{self.balance}"
+        )
 
     def __add__(self, other):
         return self.balance + other.balance

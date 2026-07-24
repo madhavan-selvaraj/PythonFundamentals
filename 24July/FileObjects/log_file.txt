@@ -1,0 +1,5 @@
+INFO User Logged In
+ERROR Database Failed
+INFO User Logged Out
+WARNING Disk Full
+ERROR Network Timeout

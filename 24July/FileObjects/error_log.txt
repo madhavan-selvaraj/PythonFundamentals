@@ -1,0 +1,2 @@
+ERROR Database Failed
+ERROR Network Timeout
